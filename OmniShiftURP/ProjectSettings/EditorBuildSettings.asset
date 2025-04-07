@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/Menu.unity
+    guid: 4302957f5c36cb04b81709c572ea7936
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/Drawing.unity
+    guid: 22e06b73945a9b84dbc58fa5e5378f25
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/Animal.unity
+    guid: e41a880ab3f5bf645945d05a272150c8
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/SpaceShooter.unity
+    guid: 47706599f33bdee4da30a1f955a1a2a7
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/SpaceWithDrawing.unity
+    guid: 4f902b035ccf0944a8f369d3d663c3be
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/Kanji.unity
+    guid: 275be75ca5c7c8d45ab55917c675b1bc
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/CustomizableDesk.unity
+    guid: 23ff7bdf688675543978b7d54fee292a
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/Globe.unity
+    guid: ec184416a253d40479d2cdf6f3e3f335
+  - enabled: 1
+    path: Assets/OmniShiftResources/Scenes/OmniCamera/UserStudy/AnimalFace.unity
+    guid: ae70787f68dbb7f4cbda19fd9fec4dd9
+  m_configObjects: {}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8014560288145762939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2635939277007051660}
+  - component: {fileID: 6601271974156596824}
+  m_Layer: 0
+  m_Name: LineDrawer3D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2635939277007051660
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014560288145762939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6601271974156596824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8014560288145762939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09cf8c708bde6b44fbd8f67f1fdc73e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  fingerPositions: []
+  lastGesture: 0
+  linePrefab: {fileID: 5914698906805200218, guid: fc306fb577731e84da9b712c22412eaf, type: 3}
+  lineWidth: 0.06
+  lineColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0.048797607, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0.1943481, a: 1}
+  - {r: 1, g: 0.941771, b: 0, a: 1}
+  linesParent: {fileID: 0}
+  currentLine: {fileID: 0}
+  lineRenderer: {fileID: 0}
